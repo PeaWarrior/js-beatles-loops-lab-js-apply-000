@@ -2,7 +2,8 @@
 function theBeatlesPlay(musicians,instruments){
   let assigned = []
   for (let i = 0; i< musicians.length; i++){
-    assigned.push(musician[i]+" plays "+instruments[i])
+    let string = musician[i] + " plays " + instruments[i]
+    assigned.push(string)
   }
   return assigned
 }
